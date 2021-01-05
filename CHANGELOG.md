@@ -1,3 +1,37 @@
+## 0.2.20+2
+
+- Added `shouldAddChannel` to ChannelsBloc in order to check if a channel has to be added to the list when a new message arrives
+
+## 0.2.20+1
+
+- Fixed bug that caused video attachment to show the same preview
+
+## 0.2.20
+
+- Implement shadowban
+
+## 0.2.19
+
+- Updated llc dependency
+- Added loading builder in channellistview
+- Added sendButtonLocation and animationduration to messageinput
+
+## 0.2.18
+
+- Updated llc dependency
+
+## 0.2.17+2
+
+- Expose ChannelsBloc.channelsComparator to sort channels on message.new event
+
+## 0.2.17+1
+
+- Fix mention tap bug
+
+## 0.2.17
+
+- Expose messageInputDecoration as part of the theme
+
 ## 0.2.16
 
 - Do not wrap channel preview builder. Users will have to implement they're custom onTap/onLongPress implementation
